@@ -1,0 +1,8 @@
+article{
+display: flex;
+flex-direction: column; /* 버튼을 늘림 */
+}
+
+.question{
+    display: none; /* html에서 숨김 js를 통해 버튼 누를시 나타나게 함 */ 
+}
