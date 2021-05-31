@@ -99,3 +99,12 @@ flex-direction: column; /* 버튼을 늘림 */
   .result {
     display: none;
   }
+
+  .share{
+      margin: 0 auto;
+  }
+
+  .kakao_ad{
+      width: 320px;
+      margin: 0 auto;
+  }
