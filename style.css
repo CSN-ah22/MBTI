@@ -17,16 +17,16 @@ flex-direction: column; /* 버튼을 늘림 */
 #img{width: 300px; height: 300px; margin: 0 auto;}
 
 .main-title{
-    font-size: 14px;
+    font-size: 25px;
     color: #7c7c7c;
 }
 .sub-title{
-    font-size: 24px;
+    font-size: 45px;
     font-weight: 100;
     color: #ebebeb;
 }
 .btn-start{
-    font-size: 16px;
+    font-size: 25px;
     color: #ff9300;
     background-color: #1f1f1f;
     border:#1f1f1f;
@@ -37,7 +37,7 @@ flex-direction: column; /* 버튼을 늘림 */
     align-items: center;
 }
 .question-content{
-    font-size: 14px;
+    font-size: 25px;
     color: #ff9300;
 }
 .rectangle{
@@ -96,6 +96,10 @@ flex-direction: column; /* 버튼을 늘림 */
     font-weight: normal;
     color: #ff9300;
   }
+  .result-explain b{
+    color: #fffb1f;
+    font-size: 20px;
+  }
   .result {
     display: none;
   }
@@ -107,4 +111,7 @@ flex-direction: column; /* 버튼을 늘림 */
   .kakao_ad{
       width: 320px;
       margin: 0 auto;
+  }
+  .rounded-circle{
+      border-radius: 14%!important;
   }
