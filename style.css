@@ -41,21 +41,21 @@ flex-direction: column; /* 버튼을 늘림 */
     color: #ff9300;
 }
 .rectangle{
-  width: 288px;
+  width: 349px;
   height: 8px;
-  background-color: #383a43;
+  background-color: #fffb1f;
   margin: 0 auto;
 }
 .mid-rectangle{
-    width: 288px;
+    width: 349px;
     height: 1px;
-    background-color: #383a43;
+    background-color: #1f1f1f;
     margin: 0 auto;
 }
 .btn-answer, .btn-answer:focus{
     background-color: #363636;
-    border: #1f1f1f;
-    width: 288px;
+    border: #fffb1f;
+    width: 349px;
     margin: 0 auto;
     font-style: 13px;
     color: #ffffff;
@@ -65,7 +65,7 @@ flex-direction: column; /* 버튼을 늘림 */
 .btn-answer:hover{
     background-color: #ff9300;
     border: #1f1f1f;
-    width: 288px;
+    width: 349px;
     margin: 0 auto;
     font-style: 13px;
     color: #ffffff;
@@ -92,11 +92,12 @@ flex-direction: column; /* 버튼을 늘림 */
     color: #ebebeb;
 }
 .result-explain {
-    font-size: 13px;
+    font-size: 18px;
     font-weight: normal;
     color: #ff9300;
   }
   .result-explain b{
+    margin-bottom: 5px;
     color: #fffb1f;
     font-size: 20px;
   }
@@ -114,4 +115,30 @@ flex-direction: column; /* 버튼을 늘림 */
   }
   .rounded-circle{
       border-radius: 14%!important;
+  }
+  .start{
+      position: relative;
+    border-radius: 90px;
+      border-style: solid;
+      border-width: 8px;
+      border-color:#fffb1f;
+      padding-bottom: 15px;
+      z-index: 6;
+  }
+  .money{
+    width: 1110px;
+  }
+  .money-img img{
+    width: 88%;
+    height: 88%;
+  }
+  .money-img{
+      position:absolute;
+      top: 328px;
+      left: 20%;
+      margin: 0 auto;
+      z-index: 5;
+  }
+  .progress-bar{
+      background-color: #fffb1f!important;
   }
