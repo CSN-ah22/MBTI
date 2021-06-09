@@ -125,9 +125,6 @@ flex-direction: column; /* 버튼을 늘림 */
       padding-bottom: 15px;
       z-index: 6;
   }
-  .money{
-    width: 1110px;
-  }
   .money-img img{
     width: 88%;
     height: 88%;
